@@ -22,9 +22,3 @@ public class ball : MonoBehaviour
         }
     }
 }
-
-int[] theArray = new int[5, -13, 8, 0];
-
-for(int i = 0; i < theArray.Length; i++) {
-    Debug.Log(theArray[i]);
-}

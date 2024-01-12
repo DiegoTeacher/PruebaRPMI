@@ -65,7 +65,7 @@ public class MarioScript : MonoBehaviour
             }
         }
 
-        return false;
+        return false; // hector has visto los TIKTOKS wake up is the first of the month una bala y estais muertos 
     }
 
     private void OnDrawGizmos()
