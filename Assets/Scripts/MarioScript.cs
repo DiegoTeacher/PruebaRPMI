@@ -7,12 +7,12 @@ using UnityEngine;
 public class MarioScript : MonoBehaviour
 {
     public KeyCode rightKey, leftKey, jumpKey;
-    public float speed, jumpForce, rayDistance;
+    public float speed, rayDistance;
     public LayerMask groundMask;
 
     private Rigidbody2D rb;
     private Vector2 dir;
-    private bool isJumping = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,12 +31,6 @@ public class MarioScript : MonoBehaviour
         {
             dir = new Vector2(-1, 0);
         }
-
-        
-        if(Input.GetKeyDown(jumpKey) && IsGrounded())
-        {
-            isJumping = true;
-        }
     }
 
     private void FixedUpdate()
@@ -45,32 +39,6 @@ public class MarioScript : MonoBehaviour
         {
             rb.velocity = dir * speed;
         }
-
-        if(isJumping)
-        {
-            rb.AddForce(new Vector2(0, jumpForce * rb.gravityScale));
-            isJumping = false;
-        }
     }
 
-    private bool IsGrounded()
-    {
-        RaycastHit2D[] raycastHits = Physics2D.RaycastAll(transform.position, Vector2.down, rayDistance);
-
-        foreach(RaycastHit2D raycastHit in raycastHits)
-        {
-            if(raycastHit.collider.gameObject.CompareTag("Suelo"))
-            {
-                return true;
-            }
-        }
-
-        return false; // hector has visto los TIKTOKS wake up is the first of the month una bala y estais muertos 
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
-    }
 }
