@@ -11,6 +11,8 @@ public class MarioScript : MonoBehaviour
     public LayerMask groundMask;
 
     private Rigidbody2D rb;
+    private SpriteRenderer _rend;
+    private Animator _animator;
     private Vector2 dir;
     private bool _intentionToJump;
 
@@ -18,6 +20,8 @@ public class MarioScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        _rend = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,23 +30,39 @@ public class MarioScript : MonoBehaviour
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
+            _rend.flipX = false; 
             dir = Vector2.right;
         }
         else if (Input.GetKey(leftKey))
         {
+            _rend.flipX = true;
             dir = new Vector2(-1, 0);
         }
 
-        _intentionToJump = false;
+        // _intentionToJump = false;
         if(Input.GetKey(jumpKey))
         {
             _intentionToJump = true;
         }
+
+        #region ANIMACIONES
+        // ANIMACIONES (PROXIMA DIA ORGANIZARLO EN OTRO SCRIPT)
+        if (dir != Vector2.zero)
+        {
+            // estamos andando
+            _animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            // estamos parados
+            _animator.SetBool("isWalking", false);
+        }
+        #endregion
     }
 
     private void FixedUpdate()
     {
-        if (dir != Vector2.zero)
+        // if (dir != Vector2.zero)
         {
             float currentYVel = rb.velocity.y;
             Vector2 nVel = dir * speed;
