@@ -27,6 +27,8 @@ public class MarioScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        print(GameManager.instance.GetTime());
+
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
@@ -62,6 +64,7 @@ public class MarioScript : MonoBehaviour
 
     private void FixedUpdate()
     {
+        bool grnd = IsGrounded();
         // if (dir != Vector2.zero)
         {
             float currentYVel = rb.velocity.y;
@@ -71,12 +74,15 @@ public class MarioScript : MonoBehaviour
             rb.velocity = nVel;
         }
         
-        if(_intentionToJump && IsGrounded())
+        if(_intentionToJump && grnd)
         {
+            _animator.Play("jumpAnimation");
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
             _intentionToJump = false;
         }
+
+        _animator.SetBool("isGrounded", grnd);
     }
 
     private bool IsGrounded()
