@@ -9,6 +9,7 @@ public class MarioScript : MonoBehaviour
     public KeyCode rightKey, leftKey, jumpKey;
     public float speed, rayDistance, jumpForce;
     public LayerMask groundMask;
+    public AudioClip jumpClip;
 
     private Rigidbody2D rb;
     private SpriteRenderer _rend;
@@ -80,6 +81,7 @@ public class MarioScript : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
             _intentionToJump = false;
+            AudioManager.instance.PlayAudio(jumpClip, "jumpSound");
         }
 
         _animator.SetBool("isGrounded", grnd);
