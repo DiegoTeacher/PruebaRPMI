@@ -43,6 +43,11 @@ public class GameManager : MonoBehaviour
         return time;
     }
 
+    public void ResetTime()
+    {
+        time = 0;
+    }
+
     // getter
     public int GetPoints()
     {

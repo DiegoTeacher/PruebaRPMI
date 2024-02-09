@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Goomba : MonoBehaviour
 {
@@ -24,7 +25,10 @@ public class Goomba : MonoBehaviour
         if(collision.gameObject.GetComponent<MarioScript>())
         {
             // Destroy(collision.gameObject);
-            collision.gameObject.SetActive(false);
+            // collision.gameObject.SetActive(false);
+            // Time.timeScale = 0;
+            GameManager.instance.ResetTime();
+            GameManager.instance.LoadScene("Mario");
         }
     }
 }
