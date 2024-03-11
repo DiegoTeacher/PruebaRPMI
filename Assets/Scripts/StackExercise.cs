@@ -40,7 +40,7 @@ public class StackExercise : MonoBehaviour
                 }
             }
 
-            // el menor valor eas aux
+            // el menor valor es aux
             originalStack.Push(aux);
 
             // swap de pilas
