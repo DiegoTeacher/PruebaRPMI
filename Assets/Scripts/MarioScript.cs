@@ -10,12 +10,14 @@ public class MarioScript : MonoBehaviour
     public float speed, rayDistance, jumpForce;
     public LayerMask groundMask;
     public AudioClip jumpClip;
+    public int maxJumps = 2;
 
     private Rigidbody2D rb;
     private SpriteRenderer _rend;
     private Animator _animator;
     private Vector2 dir;
     private bool _intentionToJump;
+    private int currentJumps = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +35,7 @@ public class MarioScript : MonoBehaviour
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
-            _rend.flipX = false; 
+            _rend.flipX = false;
             dir = Vector2.right;
         }
         else if (Input.GetKey(leftKey))
@@ -42,8 +44,7 @@ public class MarioScript : MonoBehaviour
             dir = new Vector2(-1, 0);
         }
 
-        // _intentionToJump = false;
-        if(Input.GetKey(jumpKey))
+        if (Input.GetKeyDown(jumpKey))
         {
             _intentionToJump = true;
         }
@@ -74,15 +75,15 @@ public class MarioScript : MonoBehaviour
 
             rb.velocity = nVel;
         }
-        
-        if(_intentionToJump && grnd)
+        if (_intentionToJump && (grnd || currentJumps < maxJumps - 1))
         {
             _animator.Play("jumpAnimation");
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse);
-            _intentionToJump = false;
+            currentJumps++; // le suma 1 a la variable = currentJumps = currentJumps + 1;
             AudioManager.instance.PlayAudio(jumpClip, "jumpSound");
         }
+        _intentionToJump = false; 
 
         _animator.SetBool("isGrounded", grnd);
     }
@@ -92,6 +93,7 @@ public class MarioScript : MonoBehaviour
         RaycastHit2D collision = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundMask);
         if (collision)
         {
+            currentJumps = 0;
             return true;
         }
         return false;

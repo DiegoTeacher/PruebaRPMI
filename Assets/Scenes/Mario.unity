@@ -13005,6 +13005,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   jumpClip: {fileID: 8300000, guid: bcdc1e25b02c41f44bd36032ca03b914, type: 3}
+  maxJumps: 4
 --- !u!4 &932137200 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5256208228833054461, guid: 8166d659432c46548a50aef221aab86e, type: 3}
@@ -13038,7 +13039,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932137195}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29ed929c4d2d4b94cacf2ce217b1bf58, type: 3}
   m_Name: 
