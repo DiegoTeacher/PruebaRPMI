@@ -15,10 +15,24 @@ public class PooTest : MonoBehaviour
         //vector3_2.Mul(10); // 60, 210, -350
         //print("El vector " + vector3_2.GetName() + " mide " + vector3_2.Modulo()); // 412.553
 
-        Wizard mago1 = new Wizard("Carlos", 33, true);
+        
+        //Wizard mago0 = new Wizard("Alfonso", 222, true);
+        //Wizard mago1 = new Wizard("Carlos", 33, false);
         Cowboy vaquero1 = new Cowboy("Anyi", 49);
+        vaquero1.Heal();
 
-        print(vaquero1.name + "ataca con " + vaquero1.Attack() + " puntos de daño");
-        print(mago1.name + "ataca con " + mago1.Attack() + " puntos de daño");
+        List<Character> characters = new List<Character>();
+        characters.Add(vaquero1);
+        //characters.Add(mago0);
+        //characters.Add(mago1);
+        // Mason isma = new Mason();
+        // characters.Add(isma); // no se puede hacer, isma (mason) != Character
+        //foreach (Character character in characters)
+        //{
+        //    print(character.name + " ataca con " + character.Attack() + " puntos de daño");
+        //}
+            //print(mago0.name + " tiene " + mago0.GetDamage() + " puntos de daño");
+            //print(vaquero1.name + " tiene " + vaquero1.GetDamage() + " puntos de daño");
+            //print(mago1.name + " tiene " + mago1.GetDamage() + " puntos de daño");
     }
 }

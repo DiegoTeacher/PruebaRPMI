@@ -12,6 +12,7 @@ public class MarioScript : MonoBehaviour
     public AudioClip jumpClip;
     public int maxJumps = 2;
 
+    private Character character;
     private Rigidbody2D rb;
     private SpriteRenderer _rend;
     private Animator _animator;
@@ -25,28 +26,43 @@ public class MarioScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         _rend = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+        int rnd = Random.Range(0, 2);
+        if (rnd == 0)
+            character = new Cowboy("Alejandro", 100);
+        else
+            character = new Wizard("Alejandro", 100, true);
+
+        jumpForce = character.GetJumpForce();
+        _rend.sprite = character.GetSprite();
+        _rend.color = character.color;
     }
 
     // Update is called once per frame
     void Update()
     {
+        character.Update(rb);
         print(GameManager.instance.GetTime());
 
         dir = Vector2.zero;
-        if (Input.GetKey(rightKey))
+        if (Input.GetAxis("Horizontal") > 0)
         {
             _rend.flipX = false;
             dir = Vector2.right;
         }
-        else if (Input.GetKey(leftKey))
+        else if (Input.GetAxis("Horizontal") < 0)
         {
             _rend.flipX = true;
             dir = new Vector2(-1, 0);
         }
 
-        if (Input.GetKeyDown(jumpKey))
+        if (Input.GetButtonDown("Jump"))
         {
             _intentionToJump = true;
+        }
+
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            character.Skill(rb);
         }
 
         #region ANIMACIONES
