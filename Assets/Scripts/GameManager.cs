@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,8 +13,11 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
 
+    public Human capitan;
+
     private void Awake()
     {
+
         // SINGLETON
         if (!instance) // si instance no tiene informacion
         {
@@ -72,5 +77,18 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Exit!!");
         Application.Quit();
+    }
+
+    public void SelectCharacter()
+    {
+        TMP_Dropdown dropdown = FindObjectOfType<TMP_Dropdown>();
+        if(dropdown.value == 0)
+        {
+            capitan = new CapitanAmerica("Steve", 100, null);
+        }
+        else if(dropdown.value == 1)
+        {
+            capitan = new CapitanSalami("Amador", 79, null);
+        }
     }
 }
