@@ -5,11 +5,11 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
-    private List<GameObject> audioList;
+    private List<AudioSource> sounds; // allActiveSounds
 
-    void Awake()
+    private void Awake()
     {
-        if(!instance)
+        if (!instance)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -18,53 +18,54 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        audioList = new List<GameObject>();
     }
 
-    public AudioSource PlayAudio(AudioClip audioClip, string gameObjectName, bool isLoop = false, float volume = 1.0f)
+    // Start is called before the first frame update
+    void Start()
     {
-        GameObject audioObject = new GameObject(gameObjectName);
-        audioObject.transform.SetParent(transform);
-        AudioSource audioSourceComponent = audioObject.AddComponent<AudioSource>();
-        audioSourceComponent.clip = audioClip;
-        audioSourceComponent.volume = volume;
+        sounds = new List<AudioSource>();
+    }
+
+    public AudioSource PlayAudio(AudioClip clip, string gameObjectName, bool isLoop = false, float volume = 1.0f)
+    {
+        // 1- crear empty
+        GameObject nObject = new GameObject();
+        // 2- ponerle nombre
+        nObject.name = gameObjectName;
+        // 3- anyadir el audiosource
+        AudioSource audioSourceComponent = nObject.AddComponent<AudioSource>();
+        // 4- arrastrar audioclip
+        audioSourceComponent.clip = clip;
+        // 5- seteamos el loop
         audioSourceComponent.loop = isLoop;
+        // 6- regular propiedades...
+        audioSourceComponent.volume = volume;
+        // 7- anyadimos el objeto a la lista
+        sounds.Add(audioSourceComponent);
+        // 8- que suene!
         audioSourceComponent.Play();
-        audioList.Add(audioObject);
-        if(!isLoop)
-        {
-            StartCoroutine(WaitAudioEnd(audioSourceComponent));
-        }
+        // 9- Cuando deje de sonar, hay que destruirlo (performance)
+        StartCoroutine(WaitForAudio(audioSourceComponent));
 
         return audioSourceComponent;
     }
 
-    public AudioSource PlayAudio3D(AudioClip audioClip, string gameObjectName, bool isLoop = false, float volume = 1.0f)
+    private IEnumerator WaitForAudio(AudioSource source)
     {
-        AudioSource audioSource = PlayAudio(audioClip, gameObjectName, false, volume);
-        audioSource.spatialBlend = 1f;
-        
-        return audioSource;
-    }
-
-    IEnumerator WaitAudioEnd(AudioSource src)
-    {
-        while(src && src.isPlaying)
+        if (source.loop)
         {
             yield return null;
         }
-
-        Destroy(src.gameObject);
-    }
-
-    public void ClearAudios()
-    {
-        foreach(GameObject audioObject in audioList)
+        else
         {
-            Destroy(audioObject);
-        }
+            // esperamos mientras el audio este sonando
+            while (source.isPlaying)
+            {
+                yield return new WaitForSeconds(0.3f);
+            }
 
-        audioList.Clear();
+            // cuando el audio deja de sonar, lo destruimos
+            Destroy(source.gameObject);
+        }
     }
 }

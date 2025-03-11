@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: fbb152390ecba604891d6e4eaaea5219
-  - enabled: 1
-    path: Assets/Scenes/sdegwswregr.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Mario.unity
-    guid: d10848cb3e8c2c842b31707ebd0a2415
+    path: Assets/Scenes/Letras.unity
+    guid: 2c2516190d1a9d344af41b04c844f459
+  - enabled: 1
+    path: Assets/Scenes/DVD.unity
+    guid: 85a9df6e48588204da586471ca4b1c1a
+  - enabled: 1
+    path: Assets/Scenes/Plataformas.unity
+    guid: 84fe70e83ff9e3c41b56b9183b6e165e
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 228d9b1ad48b1984b9397b92d4619ac5
   m_configObjects: {}

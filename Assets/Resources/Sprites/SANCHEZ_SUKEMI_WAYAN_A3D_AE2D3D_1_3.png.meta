@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 10e74ba0d78da424783b463860be238e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 961
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd35fe500c0ce934081e730124029d0e
+      internalID: -1112769719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 961
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660885f9ced1e8540a1d09dddf4f66ee
+      internalID: -1282726961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 961
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589b4b038358d7b41b878cb0354a339d
+      internalID: -1455945641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 961
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5792905eefdf2ff42921e46af728f0b6
+      internalID: 1900703202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_4
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 960
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563b9ed4a9a08ae46a33acbce5f0d875
+      internalID: 1701193947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ebc4b4318e99b43b51bd0fb3c0ad56
+      internalID: -1152699800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6632197eadaaba245923b33477922319
+      internalID: 406344138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bd574b13fa47145868572fc8e9265e
+      internalID: 340209162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15892a770b86d7444bc171d27d9449a1
+      internalID: -1201343986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_9
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 896
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdb1a3f42e4fa443a3aafed05a939aa
+      internalID: -1108134419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 831
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21936d90108d6a64e930d006592bbcea
+      internalID: -220200408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 831
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73806798e0929404f893a69983bfe046
+      internalID: -1078705906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_12
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 831
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dc1039d07ac34479aa53a54f1502e7
+      internalID: 1514610291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 831
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf044672b31ad4bb024d3cc94a91f3
+      internalID: -642029569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_14
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 769
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b325152209c75744e89f57f3db718ea6
+      internalID: 597412980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 769
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85838aae015b3d4a8c0fad4eb334cd7
+      internalID: 161725925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_16
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 769
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d050c8802ba758145afb7c8ef23708a0
+      internalID: 148114589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1c3f652ed62ea449a1eb189948e952
+      internalID: -1794849719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed42e9dea42ef344196dc30a6f78a394
+      internalID: -184394273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c104386cf3451a48ac8a8279e7f48e0
+      internalID: 2030254494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98047632fa73dbf4fb2c2e68a158ff1d
+      internalID: 1954197075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_21
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bed8298b676574b8d1de100e645142
+      internalID: 1423248221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_22
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 704
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5845cd8a50db2429efd857a4251525
+      internalID: -662838368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba43b82aa4b217044be4e63fed0c7c1f
+      internalID: 643380303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_24
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 704
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c8dd063e13f284c9e722523f1a0184
+      internalID: 1735229277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_25
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 674
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bc270669d42a44fb74a76b226dd845
+      internalID: -701393106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 685
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13c61704138cfd4f8d01eb2e0df76cf
+      internalID: 1647866159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_27
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 678
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf91f88f104ddb4ca25071dc02e9f3f
+      internalID: 233783660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 513
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca710da118de24b4cbbf54b3fffdd64c
+      internalID: 239132062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 513
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c73e873fe816c44b91e5c9d0fc886f
+      internalID: -1850727032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_30
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 513
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23c9be1c5a60a14d9e856c91a6acc86
+      internalID: -2073345416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 513
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236e8504b7e27e44aa815b4887e55d8b
+      internalID: 1805531091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_32
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 512
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e1285e0c4c1fa4f96a2cb4fca7e3fe
+      internalID: 1290570629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_33
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 516
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.6506958, y: 27}
+        - {x: -19.200378, y: 23.924072}
+        - {x: -23, y: 2.0824585}
+        - {x: -16.30542, y: -7.466919}
+        - {x: -8, y: -27}
+        - {x: 0, y: -27}
+        - {x: 9.294678, y: -10.157349}
+        - {x: 21.371582, y: 1.2665405}
+        - {x: 21.914429, y: 24.105042}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d7eff156ccfad4297d6527996c49d3
+      internalID: -438241891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_34
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a5f885360b6e54585024f0108595a3
+      internalID: -442220386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c23d9ba538fb34fadde61420b695c4
+      internalID: -1163793053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_36
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e785dd9ca5f504c9c744f0de90aede
+      internalID: -348287013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_37
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263c3dda787160e45b80be6873a785b5
+      internalID: -858171573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_38
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 454
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586512b410ca3b643ac824be68ce4b15
+      internalID: -1311412351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_39
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08d83cadc013cc4c8db1c2279c66fea
+      internalID: -271795793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1156031ad377a0449107e83dd782d02
+      internalID: 1511774448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_41
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872fb9de5484b8645937c1f80eea5ee7
+      internalID: 447918940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_42
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbe2f233c7b36d448e92db6c5ac18eb
+      internalID: -1660085282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_43
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58cf4c16ff49fb4594b577d328fb07b
+      internalID: -152938750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c4bf550a1c624ba65da44b7608edc
+      internalID: 1812746964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_45
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2457f7823ee96b44b531740dac04f31
+      internalID: -194376265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_0: -1112769719
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_1: -1282726961
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_10: -220200408
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_11: -1078705906
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_12: 1514610291
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_13: -642029569
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_14: 597412980
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_15: 161725925
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_16: 148114589
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_17: -1794849719
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_18: -184394273
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_19: 2030254494
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_2: -1455945641
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_20: 1954197075
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_21: 1423248221
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_22: -662838368
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_23: 643380303
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_24: 1735229277
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_25: -701393106
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_26: 1647866159
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_27: 233783660
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_28: 239132062
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_29: -1850727032
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_3: 1900703202
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_30: -2073345416
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_31: 1805531091
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_32: 1290570629
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_33: -438241891
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_34: -442220386
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_35: -1163793053
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_36: -348287013
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_37: -858171573
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_38: -1311412351
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_39: -271795793
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_4: 1701193947
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_40: 1511774448
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_41: 447918940
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_42: -1660085282
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_43: -152938750
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_44: 1812746964
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_45: -194376265
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_5: -1152699800
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_6: 406344138
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_7: 340209162
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_8: -1201343986
+      SANCHEZ_SUKEMI_WAYAN_A3D_AE2D3D_1_3_9: -1108134419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

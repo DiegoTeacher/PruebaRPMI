@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Fades : MonoBehaviour
 {
+    public float coroutineTime = 0.1f, speed;
     private SpriteRenderer _rend;
 
     // Start is called before the first frame update
@@ -13,15 +14,37 @@ public class Fades : MonoBehaviour
         StartCoroutine(FadeOut());
     }
 
-    IEnumerator FadeOut()
+    // Update is called once per frame
+    void Update()
     {
-        Color color = _rend.color;
-        for(float alpha = 1.0f; alpha >=0; alpha -= 0.01f) 
-        {
-            color.a = alpha;
-            _rend.color = color;
-            yield return new WaitForSeconds(0.02f);
-        }
+        
     }
 
+    IEnumerator FadeOut()
+    {
+        for (float alpha = 1; alpha > 0; alpha -= speed * Time.deltaTime)
+        {
+            Color newColor = _rend.color;
+            newColor.a = alpha;
+            _rend.color = newColor;
+
+            yield return new WaitForSeconds(coroutineTime);
+        }
+
+        StartCoroutine(FadeIn());
+    }
+
+    IEnumerator FadeIn()
+    {
+        for (float alpha = 0; alpha < 1; alpha += speed * Time.deltaTime)
+        {
+            Color newColor = _rend.color;
+            newColor.a = alpha;
+            _rend.color = newColor;
+
+            yield return new WaitForSeconds(coroutineTime);
+        }
+
+        StartCoroutine(FadeOut());
+    }
 }
