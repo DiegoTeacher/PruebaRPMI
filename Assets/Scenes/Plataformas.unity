@@ -1153,7 +1153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefab: {fileID: 1485748722309920279, guid: dac39831ff76c28489175cad45faf9a7, type: 3}
-  characterType: 0
+  characterType: 1
 --- !u!4 &1521957279
 Transform:
   m_ObjectHideFlags: 0
@@ -1255,8 +1255,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.21, y: 0.54}
-    newSize: {x: 1, y: 0.8828125}
+    oldSize: {x: 0.39, y: 0.63}
+    newSize: {x: 0.39, y: 0.63}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1305,15 +1305,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 938749086, guid: c7a9029fb026f7547a4335fe58f7e649, type: 3}
+  m_Sprite: {fileID: -1931889968, guid: 31c78ef276662bc46b0a41d94337db2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
+  m_Size: {x: 0.39, y: 0.63}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1705243296
@@ -1359,7 +1359,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705243292}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0a8f7b7244bcd7646a06e61afdbc3038, type: 2}
   m_CullingMode: 0

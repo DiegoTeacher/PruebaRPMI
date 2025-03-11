@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class GoombaHead : MonoBehaviour
-{
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<MarioScript>())
-        {
-            Destroy(gameObject.transform.parent.gameObject); 
-        }
-    }
-}
+//public class GoombaHead : MonoBehaviour
+//{
+//    private void OnTriggerEnter2D(Collider2D collision)
+//    {
+//        if (collision.gameObject.GetComponent<MarioScript>())
+//        {
+//            Destroy(gameObject.transform.parent.gameObject); 
+//        }
+//    }
+//}
 
-// singleton
+//// singleton

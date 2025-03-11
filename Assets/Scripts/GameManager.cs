@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum GameManagerVariables { TIME, POINTS };
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
