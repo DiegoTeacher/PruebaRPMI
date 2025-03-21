@@ -5,7 +5,7 @@ using UnityEngine;
 
 public enum CharacterType { WIZARD, WARRIOR };
 
-public class Character
+public abstract class Character
 {
     public string name;
     private float maxHealth, currentHealth, speed;
@@ -51,6 +51,13 @@ public class Character
             this.speed = value;
         }
     }
+
+    public virtual void Attack() 
+    {
+        Debug.Log("Character attacks!");
+    }
+
+    public abstract void Defensa();
 
     public void SubstractCurrentHealth(float value)
     {

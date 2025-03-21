@@ -24,5 +24,15 @@ public class Wizard : Character
         return mana;
     }
 
-   
+    public override void Attack()
+    {
+        base.Attack();
+        GameObject.Instantiate(Resources.Load<GameObject>("fireball"));
+    }
+
+    public override void Defensa()
+    {
+        Debug.Log("mAGO DEFIENDE");
+    }
+
 }

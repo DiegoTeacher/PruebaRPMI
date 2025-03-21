@@ -20,4 +20,24 @@ public class Warrior : Character
     {
         return physicalForce;
     }
+
+    public override void Attack()
+    {
+        base.Attack();
+        RaycastHit2D[] cols = Physics2D.CircleCastAll(Vector2.zero, 5, Vector2.up);
+
+        foreach (RaycastHit2D item in cols)
+        {
+            Rigidbody2D rigidbody2D = item.collider.gameObject.GetComponent<Rigidbody2D>();
+            if (rigidbody2D)
+            {
+                rigidbody2D.AddForce(new Vector2(Random.Range(-500, 500), Random.Range(-500, 500)));
+            }
+        }
+    }
+
+    public override void Defensa()
+    {
+        Debug.Log("Warrior se defiende");
+    }
 }
